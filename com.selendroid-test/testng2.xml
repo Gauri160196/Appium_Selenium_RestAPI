@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <classes>
+      <class name="SelendroidApp.testRunner.Test_UnhandledException"/>
+      <class name="JqeuryWeb.tests.Jquery_SeleniumTestCases"/>
+      <class name="SelendroidApp.testRunner.Test_LaunchApp"/>
+      <class name="SelendroidApp.testRunner.Test_Toast"/>
+      <class name="SelendroidApp.testRunner.Test_ProgressBar"/>
+      <class name="SelendroidApp.testRunner.Test_ChromeLogo"/>
+      <class name="JqeuryWeb.tests.Jquery_Select_SeleniumTC"/>
+      <class name="JqeuryWeb.tests.Jquery_Controlgroup_SeleniumTC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
